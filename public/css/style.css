@@ -1,0 +1,91 @@
+#navbar {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#navbarSupportedContent {
+    margin: 0 0 0 60%;
+}
+
+#TituloNav {
+    font-size: 30px;
+    margin: 0 0 0 10%;
+}
+
+#div_results {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+#div_results_dentro {
+    text-align: center;
+}
+
+#cards {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+}
+
+.card-text {
+    color: gold;
+}
+
+#form_cadastro {
+    width: 50%;
+    margin: 3em auto;
+    border-radius: 15px;
+    padding: 1em;
+
+    -webkit-box-shadow: 0px 0px 32px 1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0px 0px 32px 1px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 0px 32px 1px rgba(0, 0, 0, 0.41);
+}
+
+.div_form {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.butao {
+    margin: auto;
+    width: 50%;
+}
+/* Inputs */
+#nome {
+    box-shadow: none;
+    border: 2px solid dodgerblue;
+}
+#valor {
+    box-shadow: none;
+    border: 2px solid dodgerblue;
+}
+#inputGroupPrepend2 {
+    box-shadow: none;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+}
+/* Fim Inputs */
+
+#tabela {
+    width: 50%;
+    margin: auto;
+}
+
+.imgbanco {
+    width: 10%;
+}
+
+.btn_excluir {
+    background-color: red;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn_excluir:hover {
+    background-color: rgb(217, 0, 0);
+}
