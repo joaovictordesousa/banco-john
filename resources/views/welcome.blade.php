@@ -68,12 +68,7 @@
                     <td>{{ \Carbon\Carbon::parse($item->created_at)->format('d/m/Y') }}</td> {{-- data formatada --}}
                     <td>{{ \Carbon\Carbon::parse($item->created_at)->format('H:i:s') }}</td> {{-- Hora formatada --}}
                     <td>
-                        <form action="{{ route('register.destroy', ['item' => $item->id]) }}" method="POST"
-                            onsubmit="return confirm('Tem certeza que deseja excluir?')">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-danger" title="Excluir">Excluir</button>
-                        </form>
+                       @include('modal.modal')
                     </td>
                 </tr>   
             @endforeach
